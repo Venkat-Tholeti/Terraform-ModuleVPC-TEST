@@ -8,7 +8,7 @@ terraform {
 
     backend "s3" {
         bucket         = "my-terraform-state-bucket-vt" 
-        key            = "VPC-demo"
+        key            = "VPC-demo-test"
         region         = "us-east-1"
         encrypt        = true
         use_lockfile   =  true
