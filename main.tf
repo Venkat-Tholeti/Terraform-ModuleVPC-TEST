@@ -1,6 +1,6 @@
 module "vpc" {
-    source = "../Terraform-Module-VPC"
-    #source = "git::https://github.com/Venkat-Tholeti/Terraform-ModuleVPC-TEST.git?ref=main"
+    #source = "../Terraform-Module-VPC"
+    source = "git::https://github.com/Venkat-Tholeti/Terraform-ModuleVPC-TEST.git?ref=main"
     project = var.project
     environment = var.environment
     public_subnet_cidr = var.publicsubnet_cidr
